@@ -1,0 +1,325 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+.div1{
+    background-image:    linear-gradient(rgb(0, 0, 0,0.5) ,rgb(0, 0, 0,0.5) ) , url(gym.webp) ;
+
+    width: 100%;
+    height: 100%;
+   
+    background-size: cover;
+
+
+
+}
+.div2 {
+
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 100px;
+  position: relative;
+  padding-top: 30px;
+
+}
+.div2 li {
+    margin-left: 20px;
+}
+.div2 li a {
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 20px;
+}
+.div2 li  :hover{
+    background-color: rgb(165, 162, 12);
+    color: black;
+    border-radius: 20px;
+    padding: 8px;
+   
+}
+.div3{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.div3 button{
+color: black;
+background-color: rgb(248, 9, 9);
+padding: 10px;
+border-radius: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+}
+.div3 h1{
+color: aliceblue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div3 h3{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div4{
+    background: linear-gradient(rgb(0, 0, 0,0.5) ,rgb(0, 0, 0,0.5)), url(gym2.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin-top: 5px;
+    overflow-x: scroll;
+
+    
+
+}
+.div4 h1{
+    color: aliceblue;
+ font-size: 50px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-top: 20vh ;
+ margin-left: 10vh;
+ position: absolute;
+}
+.div4 h3{
+    color: rgba(206, 209, 14, 0.884);
+    padding-left: 50vh;
+    padding-top: 40vh;
+}
+
+
+.div4 h1::before{
+    content: "";
+    
+    position: absolute;
+    width: -10px;
+    left: -20px;
+    height: 60px;
+    border-left: 2px solid rgb(234, 238, 16);
+   
+}
+.div5{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.div6 {padding-left: 40px;
+    border: rgba(206, 209, 14, 0.884);
+    width: 40vh;
+    height: 80vh;
+
+    
+}
+.div7 {padding-left: 40px;
+
+     border: rgba(206, 209, 14, 0.884);
+     width: 40vh;
+     height: 80vh;
+ 
+}
+.div8 {padding-left: 40px;
+     border: rgba(206, 209, 14, 0.884);
+     width: 40vh;
+     height: 80vh;
+ 
+    }
+    .div5 img{
+        width: 140px;
+        height: 120px;
+        border-radius: 50px ;
+        margin-top: 20vh;
+
+    }
+    .div5 h2{
+        margin-top: 20%;
+
+    }
+    .div9{
+        margin-left: 40%;
+    }
+    .div9 ::before{
+        content: "";
+    
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    border-bottom: 5px solid rgb(234, 238, 16);
+   
+
+    }
+   .div10{
+       background-color: green;
+       color: white;
+       width: 100%;
+       height: 60vh;
+       
+   }
+   .div10 h1::before{
+       content: "";
+padding-left: 10px;
+       border-left: 3px solid white;
+   }
+   .div10 h1 {
+       margin-left: 40%;
+       padding-top: 20px;
+   }
+   
+   .div11 h2::before{
+    content: "";
+padding-left: 30px;
+    border-left: 3px solid white;
+}
+
+.div12 h2::before{
+    content: "";
+padding-left: 30px;
+    border-left: 3px solid white;
+}
+
+.div13 h2::before{
+    content: "";
+padding-left: 30px;
+    border-left: 3px solid white;
+}
+.div14{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.div15 img{
+    width: 40px;
+    padding: 10px;
+
+}
+.div15{
+    margin-left: 40%;
+}
+.div16{
+    display: flex;
+   
+}
+.div16 h3{
+    padding-left: 30px;
+}
+.div16 ::before{
+    content: "";
+padding-left: 30px;
+    border-left: 3px solid white;
+}
+.div18{
+    background-color: rgb(26, 40, 89);
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  }
+  .div18 h1{
+    
+    font-size: 50px;
+    font-style: italic;
+    margin-left: 4vh;
+    font-family: cursive;
+  }
+  .div18 h2{
+    font-size: 50px;
+  justify-content: space-between;}
+  .div19 img{
+    width: 170px;
+    height: 150px;
+  }
+  .div21 img{
+    width: 170px;
+    height: 150px;
+  }
+  .div20 img{
+    width: 170px;
+    height: 150px;
+  
+  }
+@media (max-width:600px) {
+    
+    .body{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0%;
+        padding: 0%;
+        overflow-y: hidden;
+    }
+    .div5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .div9 {
+        margin-left: 10vh;
+
+
+    }
+    .div9 ::before{
+        content: "";
+    
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    border-bottom: 5px solid rgb(234, 238, 16);
+   
+
+    }
+    .div4 h3{
+        padding-left: 2vh;
+        padding-top: 0%;
+        margin-top: 50vh;
+    }
+    .div10{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-color: green;
+        width: 100%;
+        
+    }
+    .div14 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 110%;
+background-color: green;
+    }
+    .div15 img {
+       margin: 0%;
+       padding: 0%;
+      width: 30px;
+         
+    }
+    .div2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+    
+    }
+    .div15{
+        background-color: green;
+        margin: 0%;
+        padding-left: 20vh;
+        
+    }
+    .div16{
+        background-color: green;
+
+    }
+    .div1{
+       background-size: cover;
+       width: 100%;
+       height: 100%;
+        
+
+    }
+    .div18{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
